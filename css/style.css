@@ -47,20 +47,18 @@ header {
     background-color: #5b8a72;
     height: 100px;
     padding: 5px;
-
 }
 
 header img {
     height: 100%;
-    
 }
 
-.carousel-inner img{
+.carousel-inner img {
     width: 100%;
 }
 
 .carousel {
-     min-width: 256px;
+    min-width: 256px;
 }
 
 .intro {
@@ -107,12 +105,31 @@ footer p {
     }
 }
 
-@media screen and (min-width:801px){
+@media screen and (min-width:801px) and (max-width:1086px) {
+    header {
+        order: 1;
+        text-align: center;
+    }
+    .intro {
+        order: 2;
+        flex-direction: column;
+    }
+    .galeria {
+        order: 3;
+    }
+    .footer {
+        order: 4;
+    }
+    .logo_small {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1087px) {
     .logo_small {
         display: none;
     }
     .carousel {
         min-width: 512px;
-   }
-   
+    }
 }
