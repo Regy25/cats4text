@@ -17,7 +17,7 @@
 .contenedor-imagenes {
     display: flex;
     width: 80%;
-    margin: auto;
+    margin: 20px auto;
     justify-content: space-around;
     flex-wrap: wrap;
     border-radius: 3px;
@@ -29,9 +29,64 @@
     height: 300px;
     margin-bottom: 5px;
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
+    margin: 20px;
 }
 
 .imagen img {
     width: 100%;
     height: 100%;
+}
+
+.container {
+    background-color: #536162;
+    max-width: 100%;
+    padding: 0px;
+}
+
+header {
+    background-color: #5b8a72;
+    height: 100px;
+    padding: 5px;
+}
+
+header img {
+    height: 100%;
+}
+
+.carousel-item {
+    width: 500px;
+    height: 500px;
+}
+
+.carousel {
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.intro {
+    background-color: #dbf6e9;
+    display: flex;
+    flex-direction: row;
+}
+
+.aside-2 {
+    margin: auto;
+    padding: 20px;
+    font-family: "open sans";
+    font-size: 40px;
+}
+
+.logo_small {
+    display: none;
+}
+
+footer {
+    background-color: #5b8a72;
+    height: 40px;
+}
+
+footer p {
+    text-align: right;
+    font-family: "open sans";
+    font-size: 20px;
 }
