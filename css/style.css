@@ -61,6 +61,10 @@ header img {
     min-width: 256px;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;
+}
+
 .intro {
     background-color: #dbf6e9;
     display: flex;
