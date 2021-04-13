@@ -26,6 +26,16 @@ header h1 {
     margin: auto;
 }
 
+.navi {
+    background-color: #bdbdbd;
+    float: right;
+    font-size: 30px;
+}
+
+.nav-link,.dropdown-toggle{
+    color: black;
+}
+
 
 .aside-descripcion{
     margin: auto;
@@ -59,4 +69,11 @@ footer p {
 .aside-gatos {
     background-color: #1b1a17;
     color: white;
+}
+@media screen and (max-width:280px) {
+    /* fold */
+    .navi{
+        display: none;
+    }
+
 }

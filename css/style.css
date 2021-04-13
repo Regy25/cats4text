@@ -56,6 +56,16 @@ header img {
     height: 100%;
 }
 
+.navi {
+    background-color: #bdbdbd;
+    float: right;
+    font-size: 30px;
+}
+
+.nav-link,.dropdown-toggle{
+    color: black;
+}
+
 .carousel-inner img {
     width: 100%;
 }
@@ -153,4 +163,12 @@ footer p {
     .carousel {
         min-width: 512px;
     }
+}
+
+@media screen and (max-width:280px) {
+    /* fold */
+    .navi{
+        display: none;
+    }
+
 }
