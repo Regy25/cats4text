@@ -20,11 +20,15 @@ header {
 
 header img {
     height: 100%;
+    float: left;
 }
 
 header h1 {
-    margin:left;
-    margin:20px -200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+    
 }
 
 .aside-descripcion{
@@ -37,7 +41,7 @@ header h1 {
 .aside-gatos{
     background-color: #dbdbdb;
     padding: 20px;
-    width: 50%;
+    min-width: 30%;
 }
 
 footer {
