@@ -23,19 +23,9 @@ header img {
 }
 
 header h1 {
-    margin: auto;
+    margin:left;
+    margin:20px -200px;
 }
-
-.navi {
-    background-color: #bdbdbd;
-    float: right;
-    font-size: 30px;
-}
-
-.nav-link,.dropdown-toggle{
-    color: black;
-}
-
 
 .aside-descripcion{
     margin: auto;
@@ -47,7 +37,7 @@ header h1 {
 .aside-gatos{
     background-color: #dbdbdb;
     padding: 20px;
-    width: 25%;
+    width: 50%;
 }
 
 footer {
@@ -69,11 +59,4 @@ footer p {
 .aside-gatos {
     background-color: #1b1a17;
     color: white;
-}
-@media screen and (max-width:280px) {
-    /* fold */
-    .navi{
-        display: none;
-    }
-
 }
