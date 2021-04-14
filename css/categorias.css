@@ -14,8 +14,6 @@ header {
     background-color: #5b8a72;
     height: 100px;
     padding: 5px;
-    display: flex;
-    flex-direction: row;
 }
 
 header img {
@@ -27,18 +25,16 @@ header h1 {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    
-    
 }
 
-.aside-descripcion{
+.aside-descripcion {
     margin: auto;
     padding: 20px;
     font-family: "open sans";
     font-size: 40px;
 }
 
-.aside-gatos{
+.aside-gatos {
     background-color: #dbdbdb;
     padding: 20px;
     min-width: 30%;
@@ -63,4 +59,41 @@ footer p {
 .aside-gatos {
     background-color: #1b1a17;
     color: white;
+}
+
+@media screen and (max-width:800px) {
+    /* Celular */
+    .logo_categoria {
+        display: none;
+    }
+    .gato1, .gato2, .gato3, .gato4 {
+        flex-direction: column;
+    }
+    header {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:801px) and (max-width:1086px) {
+    /* Tablet */
+    .logo_small {
+        display: none;
+    }
+    
+    header {
+        text-align: center;
+    }
+
+    .gato1, .gato2, .gato3, .gato4 {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:1087px) {
+    /* escritorio */
+    .logo_small {
+        display: none;
+    }
+
+    
 }
