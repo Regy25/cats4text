@@ -1,0 +1,28 @@
+@media screen and (max-width:800px) {
+    /* Celular */
+    .aside-gatos {
+        font-size: 50px;
+    }
+    .aside-descripcion {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:801px) and (max-width:1086px) {
+    /* Tablet */
+    .aside-gatos {
+        font-size: 50px;
+    }
+    .aside-descripcion {
+        font-size: 40px;
+    }
+}
+@media screen and (min-width:1087px) {
+    /* escritorio */
+    .aside-gatos {
+        font-size: 35px;
+    }
+    .aside-descripcion {
+        font-size: 40px;
+    }
+}
