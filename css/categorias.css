@@ -19,13 +19,6 @@ header {
 
 header img {
     height: 100%;
-    float: left;
-}
-
-header h1 {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
 }
 
 .aside-descripcion {
