@@ -1,0 +1,19 @@
+@media screen and (max-width:800px) {
+    /* Celular */
+    .aside-gatos {
+        font-size: 7px;
+    }
+    .aside-descripcion {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:801px) and (max-width:1086px) {
+    /* Tablet */
+    .aside-gatos {
+        font-size: 21px;
+    }
+    .aside-descripcion {
+        font-size: 40px;
+    }
+}
