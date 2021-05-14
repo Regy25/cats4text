@@ -13,9 +13,9 @@ $(document).ready(function () {
             $("#tabla-categorias").append(fila);
             var fila = "<tr><td>  </td><td> 2 </td> <td> <img src='../images/Rallita.png'> <td> Rallita </td><td> Rallita es una fiel gata guardiana, estará todo el día vigilando que no le pase nada a tu hogar, incluso vigila mas que la tipica vecina del barrio. </td></tr>"
             $("#tabla-categorias").append(fila);
-            var fila = "<tr><td>  </td><td> 3 </td><td> <img src='../images/Carlitos.png'> <td> Carlitos </td><td> Jerry es un gato triste que fue abandonado en yahoo respuestas. Muchos gatos le hacen bullying por tener nombre de ratón, es por eso que Jerry te necesita mas que nunca. </td></tr>"
+            var fila = "<tr><td>  </td><td> 3 </td><td> <img src='../images/Carlitos.png'> <td> Jerry </td><td> Jerry es un gato triste que fue abandonado en yahoo respuestas. Muchos gatos le hacen bullying por tener nombre de ratón, es por eso que Jerry te necesita mas que nunca. </td></tr>"
             $("#tabla-categorias").append(fila);
-            var fila = "<tr><td>  </td><td> 4 </td><td> <img src='../images/Jerry.png'> <td> Jerry </td><td> Carlitos... un gato feliz que fue desechado, aun así, no pierde la sonrisa en su cara esperando que lo rescates y lo utilices en algún foro. </td></tr>"
+            var fila = "<tr><td>  </td><td> 4 </td><td> <img src='../images/Jerry.png'> <td> Carlitos </td><td> Carlitos... un gato feliz que fue desechado, aun así, no pierde la sonrisa en su cara esperando que lo rescates y lo utilices en algún foro. </td></tr>"
             $("#tabla-categorias").append(fila);
 
 
@@ -29,20 +29,20 @@ $(document).ready(function () {
             $("#tabla-categorias").append(fila);
             var fila = "<tr><td>  </td><td> 7 </td><td><img src='../images/Shere Khan.png'><td> Shere Khan </td><td> Shere Khan es un hábil cazador, puede olfatear a su presa a gran distancia. Este hábil felino se crio en las selvas de India. Se dice que allí fue el más temido de toda la jungla. </td></tr>"
             $("#tabla-categorias").append(fila);
-            var fila = "<tr><td>  </td><td> 8 </td><td><img src='../images/Trio.png'><td> Trio </td><td> Son Shanell, Spencer y Diva. Estos 3 gatos son inseparables, aunque no hacen mucho la verdad, solo se la pasan viendo y juzgando a todo el que pasa. </td></tr>"
+            var fila = "<tr><td>  </td><td> 8 </td><td><img src='../images/Trio.png'><td> Shanell, Spencer y Diva </td><td> Son Shanell, Spencer y Diva. Estos 3 gatos son inseparables, aunque no hacen mucho la verdad, solo se la pasan viendo y juzgando a todo el que pasa. </td></tr>"
             $("#tabla-categorias").append(fila);
 
         } else if (tipo_cotegoria == 'Extra Grande') {
             $("#tabla-categorias").empty();
             var fila = "<thead><tr><th scope='col'></th><th scope='col'> Id </th><th scope='col'> Gato </th><th scope='col'> Nombre </th><th scope='col'> Descripción</th></tr></thead>"
             $("#tabla-categorias").append(fila);
-            var fila = "<tr><td>  </td><td> 9 </td><td><img src='../images/XL 1.png'><td> Alex </td><td> Este gato lo encontramos hace un tiempo en los comentarios de una pagina de los mejores spa del país, estuvo ahí por mucho tiempo, por lo que decidimos traerlo a esta pagina. </td></tr>"
+            var fila = "<tr><td>  </td><td> 9 </td><td><img src='../images/Alex.png'><td> Alex </td><td> Este gato lo encontramos hace un tiempo en los comentarios de una pagina de los mejores spa del país, estuvo ahí por mucho tiempo, por lo que decidimos traerlo a esta pagina. </td></tr>"
             $("#tabla-categorias").append(fila);
-            var fila = "<tr><td>  </td><td> 10 </td><td><img src='../images/XL 2.png'><td> Felix </td><td> Este amigo lleva un buen tiempo con nosotros, nos lo paso otra persona diciendo que nadie lo usaba por lo que decido entregárnoslo. </td></tr>"
+            var fila = "<tr><td>  </td><td> 10 </td><td><img src='../images/Toto.png'><td> Toto </td><td> Este amigo lleva un buen tiempo con nosotros, nos lo paso otra persona diciendo que nadie lo usaba por lo que decido entregárnoslo. </td></tr>"
             $("#tabla-categorias").append(fila);
-            var fila = "<tr><td>  </td><td> 11 </td><td><img src='../images/XL 3.png'><td> Jorge </td><td> Este gato en adopcion fue encontrado en un post acerca de los mejores restaurantes del país, en el cual fue completamente ignorado, por lo cual, se decidio cuidarlo y encontrarle un hogar. </td></tr>"
+            var fila = "<tr><td>  </td><td> 11 </td><td><img src='../images/Jorge.png'><td> Jorge </td><td> Este gato en adopcion fue encontrado en un post acerca de los mejores restaurantes del país, en el cual fue completamente ignorado, por lo cual, se decidio cuidarlo y encontrarle un hogar. </td></tr>"
             $("#tabla-categorias").append(fila);
-            var fila = "<tr><td>  </td><td> 12 </td><td><img src='../images/XL Calabaza.png'><td> Charlie </td><td> Este gato lo encontramos en un chat de una organización para una fiesta de halloween. Después de haber sido utilizado un par de veces lo tenemos aquí. </td></tr>"
+            var fila = "<tr><td>  </td><td> 12 </td><td><img src='../images/Charlie.png'><td> Charlie </td><td> Este gato lo encontramos en un chat de una organización para una fiesta de halloween. Después de haber sido utilizado un par de veces lo tenemos aquí. </td></tr>"
             $("#tabla-categorias").append(fila);
 
         } else if (tipo_cotegoria == 'Cara') {
@@ -63,13 +63,20 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $("#btn-copiar").click(function () {
-        var x = "#";
-        var y = $("#id_gato").val();
-        var gato = x+y;
-        var $temp = $("<input>")
-        $("body").append($temp);
-        $temp.val($(gato).text()).select();
-        document.execCommand("copy");
-        $temp.remove();
+        var id = $("#id_gato").val();
+        if (id > 0 && id < 17) {
+            var gato = document.getElementById(id).innerHTML;
+
+            function CopiadordeGatos(e) {
+                e.clipboardData.setData("text/html", gato);
+                e.clipboardData.setData("text/plain", gato);
+                e.preventDefault();
+            }
+            document.addEventListener("copy", CopiadordeGatos);
+            document.execCommand("copy");
+            document.removeEventListener("copy", CopiadordeGatos);
+        } else {
+            window.alert("Id no Valido")
+        }
     });
 });
