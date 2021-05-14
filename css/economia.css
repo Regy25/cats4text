@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.container {
+    background-color: #5b8a72;
+    max-width: 100%;
+    padding: 0px;
+}
+
+header {
+    background-color: #5b8a72;
+    height: 100px;
+    padding: 5px;
+}
+
+header img {
+    height: 100%;
+}
+
+.botones {
+    margin: 5px;
+}
+
+#gatito-economico {
+    max-width: 800px;
+    display: flex;
+    position: relative;
+}
+
+#info {
+    position: absolute;
+    text-align: center;
+    margin-top: 140px;
+}
+
+footer {
+    background-color: #5b8a72;
+    height: 40px;
+}
+
+footer p {
+    text-align: right;
+    font-family: "open sans";
+    font-size: 20px;
+}
+
+@media screen and (max-width:800px) {
+    /* Celular */
+    .logo_categoria {
+        display: none;
+    }
+    .gato1, .gato2, .gato3, .gato4 {
+        flex-direction: column;
+    }
+    header {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:801px) and (max-width:1086px) {
+    /* Tablet */
+    .logo_small {
+        display: none;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    .gato1, .gato2, .gato3, .gato4 {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:1087px) {
+    /* escritorio */
+    .logo_small {
+        display: none;
+    }
+
+}
