@@ -1,5 +1,4 @@
 * {
-    background-color: #5b8a72;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +6,7 @@
 }
 
 .container {
-    background-color: #5b8a72;
+    background-color: white;
     max-width: 100%;
     padding: 0px;
 }
