@@ -12,7 +12,7 @@ $('#btn-dolar').click(function (event) {
         dataType: 'json',
         success: function (data) {
             console.log(data);
-                var $val_dolar = $('<h1>').text(('US$ ')+data.data.dolar);
+                var $val_dolar = $('<p>').text(('US$ ')+data.data.dolar);
             $("#info").empty();
             $('#info').append($val_dolar);               
         },
@@ -34,7 +34,7 @@ $('#btn-euro').click(function (event) {
         dataType: 'json',
         success: function (data) {
             console.log(data);
-                var $val_euro = $('<h1>').text(('EURЄ ')+data.data.euro);
+                var $val_euro = $('<p>').text(('EURЄ ')+data.data.euro);
             $("#info").empty();
             $('#info').append($val_euro);               
         },
@@ -56,7 +56,7 @@ $('#btn-uf').click(function (event) {
         dataType: 'json',
         success: function (data) {
             console.log(data);
-                var $val_uf = $('<h1>').text(('CLP$ ')+data.data.uf);
+                var $val_uf = $('<p>').text(('CLP$ ')+data.data.uf);
             $("#info").empty();
             $('#info').append($val_uf);               
         },
@@ -78,7 +78,7 @@ $('#btn-bitcoin').click(function (event) {
         dataType: 'json',
         success: function (data) {
             console.log(data);
-                var $val_bitcoin = $('<h1>').text(('CLP$ ')+data.data[0].price_clp);
+                var $val_bitcoin = $('<p>').text(('CLP$ ')+data.data[0].price_clp);
             $("#info").empty();
             $('#info').append($val_bitcoin);               
         },
@@ -100,7 +100,7 @@ $('#btn-ethereum').click(function (event) {
         dataType: 'json',
         success: function (data) {
             console.log(data);
-                var $val_ethereum = $('<h1>').text(('CLP$ ')+data.data[1].price_clp);
+                var $val_ethereum = $('<p>').text(('CLP$ ')+data.data[1].price_clp);
             $("#info").empty();
             $('#info').append($val_ethereum);               
         },
