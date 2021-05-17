@@ -22,24 +22,36 @@ header img {
 }
 
 .botones {
+    text-align: center;
     margin: 5px;
+    padding-bottom: 0;
 }
 
 #gatito-economico {
-    max-width: 800px;
-    display: flex;
-    position: relative;
+    text-align: center
+}
+.img-eco{
+    text-align: center;
+}
+
+.Economico {
+    height: 100%;
+    width: auto;
+    padding: 5px;
 }
 
 #info {
-    position: absolute;
     text-align: center;
-    margin-top: 140px;
+    clip: 20px;
 }
 
 footer {
+    position:absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
     background-color: #5b8a72;
-    height: 40px;
+    height: auto;
 }
 
 footer p {
@@ -52,9 +64,6 @@ footer p {
     /* Celular */
     .logo_categoria {
         display: none;
-    }
-    .gato1, .gato2, .gato3, .gato4 {
-        flex-direction: column;
     }
     header {
         text-align: center;
@@ -69,10 +78,6 @@ footer p {
 
     header {
         text-align: center;
-    }
-
-    .gato1, .gato2, .gato3, .gato4 {
-        flex-direction: column;
     }
 }
 
