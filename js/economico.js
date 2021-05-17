@@ -12,7 +12,7 @@ $('#btn-dolar').click(function (event) {
         dataType: 'json',
         success: function (data) {
             console.log(data);
-                var $val_dolar = $('<p>').text(('US$ ')+data.data.dolar);
+                var $val_dolar = $('<p>').text(('CLP$ ')+data.data.dolar);
             $("#info").empty();
             $('#info').append($val_dolar);               
         },
@@ -34,7 +34,7 @@ $('#btn-euro').click(function (event) {
         dataType: 'json',
         success: function (data) {
             console.log(data);
-                var $val_euro = $('<p>').text(('EURЄ ')+data.data.euro);
+                var $val_euro = $('<p>').text(('CLP$ ')+data.data.euro);
             $("#info").empty();
             $('#info').append($val_euro);               
         },
