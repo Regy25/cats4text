@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $("#btn-mostrar").click(function () {
+    $("#categoria").click(function () {
 
         // texto del acordeon 
         var combo = document.getElementById("categoria");
