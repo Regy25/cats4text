@@ -33,18 +33,20 @@
 <body>
     <div class="container">
         <header class="header">
-            <a href="../index.html"> <img src="../images/logo_cara.png" alt="logo_cara" class="logo_categoria"></a>
+            <a href="../index.html"> <img src="../images/logo_full.png" alt="logo_cara" class="logo_categoria"></a>
             <a href="../index.html"> <img src="../images/logo_small.png" alt="Logo_small" class="logo_small"></a>
         </header>
         <div class="submit">
             <div class="row">
                 <form id="contact-form">
                     <div class="form-group">
-                        <input type="text" name="name" id="name" class="form-control required" placeholder="Nombre Gatito">
+                        <label for="nombre_gato" id="nombre_label">Nombre</label>
+                        <input type="text" name="nombre_gato" id="nombre_gato" class="form-control required" placeholder="Ingrese nombre del gato...">
                     </div>
                     <div class="form-group">
-                        <textarea name="historia" id="historia" class="form-control required"
-                            placeholder="Historia del gatito" rows="2"></textarea>
+                        <label for="historia_gato" id="historia_label">Historia</label>
+                        <textarea name="historia_gato" id="historia_gato" class="form-control required"
+                            placeholder="Ingrese historia del gato..." rows="2"></textarea>
                     </div>
                     <div class="form-group">
                         <select name="category" class="required">
@@ -56,8 +58,9 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <textarea name="ascii" id="ascii" class="form-control required"
-                            placeholder="Pega el gatito" rows="10"></textarea>
+                        <label for="gato" id="gato_label">Gato</label>
+                        <textarea name="gato" id="gato" class="form-control required"
+                            placeholder="Pegue aquí su gato..." rows="10"></textarea>
                     </div>
                     <button id="submit-form">Send message</button>
                 </form>
