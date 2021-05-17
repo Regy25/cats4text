@@ -15,6 +15,7 @@ header {
     background-color: #5b8a72;
     height: 100px;
     padding: 5px;
+    text-align: center;
 }
 
 header img {
@@ -27,22 +28,22 @@ header img {
     padding-bottom: 0;
 }
 
-#gatito-economico {
-    text-align: center
-}
 .img-eco{
+    position: relative;
     text-align: center;
 }
 
 .Economico {
-    height: 100%;
+    height: auto;
     width: auto;
     padding: 5px;
 }
 
-#info {
-    text-align: center;
-    clip: 20px;
+.informacion {
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 footer {
