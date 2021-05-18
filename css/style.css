@@ -159,16 +159,14 @@ footer p {
         text-align: center;
     }
     img.pequeña {
-        width: 100px;
-        height: 100px;
+        width: auto;
+        height: auto;
     }
     img.carrusel {
         width: auto;
         height: auto;
         display:block;
         margin: auto;
-        
-
     }
 }
 
