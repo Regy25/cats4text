@@ -28,6 +28,12 @@ header img {
     font-weight: bold;
     font-size: 30px;
 }
+.gracias {
+    padding-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
 
 .botones {
     text-align: center;
@@ -36,6 +42,7 @@ header img {
 }
 
 .img-eco{
+    background-color: white;
     position: relative;
     text-align: center;
 }
@@ -47,10 +54,12 @@ header img {
 }
 
 .informacion {
+    background-color: white;
     position: absolute;
     top: 29%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-weight: bold;
 }
 
 footer {
@@ -76,7 +85,10 @@ footer p {
         text-align: center;
     }
     .instrucciones {
-        font-size: 26px;
+        font-size: 20px;
+    }
+    .gracias {
+        font-size: 40px;
     }
 }
 
@@ -88,6 +100,12 @@ footer p {
 
     header {
         text-align: center;
+    }
+    .instrucciones {
+        font-size: 40px;
+    }
+    .gracias {
+        font-size: 40px;
     }
 }
 
