@@ -63,6 +63,7 @@ header img {
 }
 
 footer {
+    position: relative;
     bottom:0;
     left: 0;
     right: 0;
@@ -76,7 +77,7 @@ footer p {
     font-size: 20px;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:767px) {
     /* Celular */
     .logo_categoria {
         display: none;
@@ -85,14 +86,14 @@ footer p {
         text-align: center;
     }
     .instrucciones {
-        font-size: 20px;
+        font-size: 30px;
     }
     .gracias {
-        font-size: 40px;
+        font-size: 30px;
     }
 }
 
-@media screen and (min-width:801px) and (max-width:1086px) {
+@media screen and (min-width:768px) and (max-width:1086px) {
     /* Tablet */
     .logo_small {
         display: none;
@@ -102,10 +103,18 @@ footer p {
         text-align: center;
     }
     .instrucciones {
-        font-size: 40px;
+        font-size: 55px;
     }
     .gracias {
-        font-size: 40px;
+        font-size: 50px;
+    }
+    footer p {
+        text-align: right;
+        font-family: "open sans";
+        font-size: 50px;
+    }
+    .btn-primary {
+        font-size: 50px;
     }
 }
 
@@ -114,5 +123,10 @@ footer p {
     .logo_small {
         display: none;
     }
-
+    .instrucciones {
+        font-size: 40px;
+    }
+    .gracias {
+        font-size: 40px;
+    }
 }
