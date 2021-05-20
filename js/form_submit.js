@@ -1,35 +1,35 @@
 $(document).ready(function() {
     $("#contact-form").validate({
       rules: {
-        name: {
+        nombre_gato: {
           required: true,
           minlength: 2
         },
-        historia: {
+        historia_gato: {
             required: true,
             minlength: 6
         },
-        categoria:{
+        category:{
             required: true,
         },
-        ascii: {
+        gato: {
             required: true,
             minlength: 2
         }
       },
       messages : {
-        name: {
+        nombre_gato: {
           required: "Ingrese Nombre",
           minlength: "Largo minimo 3 caracteres"
         },
-        historia: {
+        historia_gato: {
             required: "Ingrese Historia",
             minlength: "Largo minimo 6 caracteres"
         },
-        categoria: {
+        category: {
             required: "Escoja una categoria",
         },
-        ascii: {
+        gato: {
             required: "Ingresa el gatito",
             minlength: "Largo min 2 caracteres"
         }
