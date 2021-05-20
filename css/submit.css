@@ -26,6 +26,23 @@
     height: 90px;
 }
 
+label {
+    font-size: 30px;
+}
+
+select {
+    font-size: 30px;
+}
+
+#submit-form {
+    margin: auto;
+}
+
+#nombre_gato, #historia_gato, #gato {
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
 .form-group {
     text-align: center;
 }
@@ -63,6 +80,9 @@ footer p {
     }
     .logo_full {
         display: none;
+    }
+    label {
+        font-size: 15px;
     }
 }
 
