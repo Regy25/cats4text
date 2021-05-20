@@ -5,21 +5,27 @@
     max-height: 100%;
 }
 
+.navbar {
+    background-color: #5b8a72;
+    font-family: "open sans";
+}
+
+.logo_full {
+    height: 90px;
+}
+
+.logo_small {
+    height: 90px;
+}
+
+.nav-link {
+    font-size: 25px;
+}
+
 .container {
     background-color: #5b8a72;
     max-width: 100%;
     padding: 0px;
-}
-
-header {
-    background-color: #5b8a72;
-    height: 100px;
-    padding: 5px;
-    text-align: center;
-}
-
-header img {
-    height: 100%;
 }
 
 .instrucciones {
@@ -89,6 +95,9 @@ footer p {
     }
     .gracias {
         font-size: 25px;
+    }
+    .logo_full {
+        display: none;
     }
 }
 

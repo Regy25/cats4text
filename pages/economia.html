@@ -28,8 +28,29 @@
 <body>
     <div class="container">
         <header class="header">
-            <a href="../index.html"> <img src="../images/logo_full.png" alt="logo_cara" class="logo_categoria"></a>
-            <a href="../index.html"> <img src="../images/logo_small.png" alt="Logo_small" class="logo_small"></a>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a href="../index.html"><img class="logo_full" src="../images/logo_full.png" alt="logo_full"></a>
+                    <a href="../index.html"><img class="logo_small" src="../images/logo_small.png" alt="logo_small"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/economia.html">Indicadores Economicos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/submit.html">Dar en Adopción</a>
+                            </li>
+                    </div>
+                </div>
+            </nav>
         </header>
         <div class="instrucciones">
             <p>Presione el boton de la moneda de la cual desea conocer el valor en pesos chilenos MIAWWW!!</p>
@@ -40,21 +61,24 @@
             <button class="btn btn-primary" id="btn-uf">UF</button>
             <button class="btn btn-primary" id="btn-bitcoin">Bitcoin</button>
             <button class="btn btn-primary" id="btn-ethereum">Ethereum</button>
-            
+
         </div>
         <div class="img-eco" id="gatito-economico">
             <img src="../images/info_holder_rt_bigger.png" alt="info-holder" class="Economico">
-            <div class="informacion" id="info"><p>VALOR</p></div>
+            <div class="informacion" id="info">
+                <p>VALOR</p>
+            </div>
         </div>
 
         <div class="gracias">
             <p>Gracias por consultar conmigo miaw!!</p>
         </div>
-        
+
         <footer class="footer">
             <p>Contacto : +56 9 9799 3773</p>
         </footer>
     </div>
     <script src="../js/economico.js"></script>
 </body>
+
 </html>
