@@ -28,6 +28,13 @@
     height: 90px;
 }
 
+#Cates{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
 label {
     font-size: 30px;
 }
