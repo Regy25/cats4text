@@ -18,111 +18,18 @@
     height: 90px;
 }
 
+.form-group {
+    text-align: center;
+}
+
 .nav-link {
     font-size: 25px;
-}
-
-.galeria {
-    font-family: "open sans";
-}
-
-.galeria h1 {
-    text-align: center;
-    margin: 20px 0 15px 0;
-    font-weight: 300;
-}
-
-.contenedor-imagenes {
-    display: flex;
-    width: 80%;
-    margin: 20px auto;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    border-radius: 3px;
-}
-
-.contenedor-imagenes .imagen {
-    width: 35%;
-    position: relative;
-    height: auto;
-    margin-bottom: 5px;
-    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
-    margin: 20px;
-}
-
-.imagen img {
-    width: 100%;
-    height: 100%;
 }
 
 .container {
     background-color: #bdbdbd;
     max-width: 100%;
     padding: 0px;
-}
-
-/* header {
-    background-color: #5b8a72;
-    height: 100px;
-    padding: 5px;
-} */
-
-/* header img {
-    height: 100%;
-} */
-
-#categoria {
-    width: 25%;
-    font-size: 20px;
-    margin: auto;
-    text-align: center;
-}
-
-#id_gato {
-    width: 50%;
-    height: 35px;
-}
-
-.form-group {
-    text-align: center;
-}
-
-#tabla-categorias {
-    font-size: 30px;
-}
-
-/* .navi {
-    float: right;
-    font-size: 30px;
-} */
-
-/* .nav-link, .dropdown-toggle {
-    color: black;
-} */
-
-.carousel-inner img {
-    width: 100%;
-}
-
-.carousel {
-    min-width: 256px;
-}
-
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    background-color: black;
-}
-
-.intro {
-    background-color: #dbf6e9;
-    display: flex;
-    flex-direction: row;
-}
-
-.aside-2 {
-    margin: auto;
-    padding: 20px;
-    font-family: "open sans";
-    font-size: 40px;
 }
 
 footer {
@@ -143,48 +50,11 @@ footer p {
         order: 1;
         text-align: center;
     }
-    .intro {
-        order: 2;
-        flex-direction: column;
-    }
-    .galeria {
-        order: 3;
-    }
-    .aside-2 {
-        margin: auto;
-        padding: 10px;
-        font-family: "open sans";
-        font-size: 20px;
-    }
     .footer {
         order: 4;
     }
     .logo_full {
         display: none;
-    }
-    .contenedor-imagenes .imagen {
-        width: auto;
-        margin-bottom: 1px;
-        margin: 5px;
-    }
-    #tabla-categorias {
-        font-size: 13px;
-    }
-    #categoria {
-        width: 25%;
-        font-size: 10px;
-        margin: auto;
-        text-align: center;
-    }
-    img.pequeña {
-        width: auto;
-        height: auto;
-    }
-    img.carrusel {
-        width: auto;
-        height: auto;
-        display:block;
-        margin: auto;
     }
 }
 
@@ -194,21 +64,11 @@ footer p {
         order: 1;
         text-align: center;
     }
-    .intro {
-        order: 2;
-        flex-direction: column;
-    }
-    .galeria {
-        order: 3;
-    }
     .footer {
         order: 4;
     }
     .logo_small {
         display: none;
-    }
-    #tabla-categorias {
-        font-size: 20px;
     }
 }
 
@@ -216,9 +76,6 @@ footer p {
     /* escritorio */
     .logo_small {
         display: none;
-    }
-    .carousel {
-        min-width: 512px;
     }
 }
 
