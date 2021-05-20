@@ -61,16 +61,6 @@
     padding: 0px;
 }
 
-/* header {
-    background-color: #5b8a72;
-    height: 100px;
-    padding: 5px;
-} */
-
-/* header img {
-    height: 100%;
-} */
-
 #categoria {
     width: 25%;
     font-size: 20px;
@@ -91,14 +81,7 @@
     font-size: 30px;
 }
 
-/* .navi {
-    float: right;
-    font-size: 30px;
-} */
 
-/* .nav-link, .dropdown-toggle {
-    color: black;
-} */
 
 .carousel-inner img {
     width: 100%;
