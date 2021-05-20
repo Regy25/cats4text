@@ -99,6 +99,9 @@ footer p {
     .logo_full {
         display: none;
     }
+    #info {
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:1086px) {
@@ -124,6 +127,9 @@ footer p {
     .btn-primary {
         font-size: 50px;
     }
+    #info {
+        font-size: 30px;
+    }
 }
 
 @media screen and (min-width:1087px) {
@@ -136,5 +142,8 @@ footer p {
     }
     .gracias {
         font-size: 40px;
+    }
+    #info {
+        font-size: 50px;
     }
 }
