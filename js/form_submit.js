@@ -3,7 +3,7 @@ $(document).ready(function () {
     rules: {
       nombre_gato: {
         required: true,
-        minlength: 2
+        minlength: 3
       },
       historia_gato: {
         required: true,
